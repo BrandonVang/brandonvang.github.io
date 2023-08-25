@@ -14,6 +14,12 @@
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+	<script>
+		function fillEmail() {
+			const emailField = document.getElementById("email");
+			emailField.value = "vang.brandon94@gmail.com";
+		}
+	</script>
 </head>
 
 <body class="is-preload">
@@ -189,6 +195,12 @@
 
 						<i class="fab fa-node-js"></i>
 						<p>Express</p>
+					</li>
+
+					<li>
+
+						<i class="fa fa-flask" aria-hidden="true"></i>
+						<p>Flask</p>
 					</li>
 
 				</ul>
@@ -482,11 +494,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<ul class="icons">
 				<li><a href="https://www.linkedin.com/in/brandon-vang-a80518171/"
 						class="icon brands fab fa-linkedin"><span class="label">Linkedin</span></a></li>
-				<li><a href="vang.brandon94@gmail.com" class="fas fa-envelope"><span class="label"></span></a></li>
+				<li><a href="#contact" class="fas fa-envelope" onclick="fillEmail()"><span class="label"></span></a></li>
+
 				<li><a href="https://github.com/BrandonVang" class="icon brands fa-github"><span
 							class="label">GitHub</span></a></li>
 			</ul>
 		</footer>
+
 
 	</div>
 
